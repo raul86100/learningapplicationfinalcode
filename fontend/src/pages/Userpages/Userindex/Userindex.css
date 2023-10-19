@@ -1,0 +1,42 @@
+.indexpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns with equal width */
+    grid-template-rows: 1fr auto; /* The third column has two rows, with the second row auto-sized */
+    gap: 10px; 
+    padding-top: 3%;
+    overflow: hidden;
+    
+}
+/* .ballonzindex{
+    z-index:10;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    animation: upper 3s ease-out;
+} */
+.ballonzindex4{
+    z-index:11;
+    position: absolute;
+    top: 0px; 
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-color:white;
+    padding-top: 20%;
+    padding-left: 45%;
+    /* animation: upper 3s ease; */
+}
+.ballonzindex4 p{
+    padding-left: 2%;
+    color: darkcyan;
+    font-weight: 900;
+}
+@keyframes upper{
+    0%{
+        transform: translateY(100vh);
+    }
+    
+    100%{
+        transform: translateY(0vh);
+    }
+}

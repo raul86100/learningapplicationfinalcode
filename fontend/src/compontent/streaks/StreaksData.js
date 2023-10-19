@@ -1,0 +1,23 @@
+export const StreaksData = [
+    {
+        login:'1',
+    },
+    {
+        login:'0',
+    },
+    {
+        login:'1',
+    },
+    {
+        login:'0',
+    },
+    {
+        login:'1',
+    },
+    {
+        login:'0',
+    },
+    {
+        login:'1',
+    },
+];

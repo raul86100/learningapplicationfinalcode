@@ -1,0 +1,43 @@
+.footer-container{
+    margin:0px;
+    height: fit-content;
+    width: 100%;
+    background-color:#686869;
+}
+.initial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.texth2
+{
+    margin-left: 20px;
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.contact h2{
+    color: white;
+}
+.icons
+{
+    display: flex;
+    align-items: center;
+}
+.icons span{
+    color: white;
+    margin-left: 10px;
+}
+.last
+{
+    background-color: #525252;
+    padding: 10px;
+}
+.lastp{
+    text-align: center;
+    color:white;
+}

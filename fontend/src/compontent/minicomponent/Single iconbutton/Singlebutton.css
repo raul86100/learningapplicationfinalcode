@@ -1,0 +1,8 @@
+.btnicon{
+    padding: 1%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btnicon:hover{
+    background-color: black;
+}

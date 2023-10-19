@@ -1,0 +1,46 @@
+.top{
+    text-align: center;
+
+}
+.top h2{
+    color:red;
+}
+.introtable
+{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5% ;
+}
+/* .introtd{
+    height: 400px;
+} */
+
+.rowtext{
+    text-align: center;
+}
+.rowimage
+{
+    width: 450px;
+    height: 350px;
+    background-position: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    /* margin: 20px; */
+    box-shadow: 15px 15px 15px;
+}
+/* .contactbox{
+    width:75%;
+    height:10%;
+    margin-left: 10%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background-color: #705ded;
+    border-radius: 20px;
+}
+.contactboxtext{
+ padding: 10px;
+ color:white;
+ margin-left: 5%;
+
+
+} */
