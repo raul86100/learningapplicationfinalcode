@@ -1,0 +1,66 @@
+.coursegrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* This creates a grid with three columns that auto-fill the available space. Adjust the column width as needed. */
+    gap: 16px; 
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 9%;
+    margin-right: 9%;
+    
+}
+.coursenp{
+    padding: 10px;
+}
+.coursenp:hover{
+    padding: 0px;
+}
+.parentcoursediv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:rgba(247, 247, 247, 1); */
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+    height: 88vh;
+   
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    
+    gap:1%;
+    
+    width: 25%;
+}
+.search input{
+    border: none;
+    width: 100%;
+    outline:none;
+    height: 27px;
+    font: 18px small-caption;
+    background-color: transparent;
+}
+.input{
+    padding: 5%;
+    border-radius: 43px;
+    width: 100%;
+     height: 26px; 
+    border: 1px solid deepskyblue;
+    outline: none;
+    display: flex;
+}
+
+
+/* .popcard{
+    
+    z-index:10;
+    width:100vw;
+    height: 100vh;
+    background-color:black;
+    position:fixed;
+    opacity: 0.9;
+} */

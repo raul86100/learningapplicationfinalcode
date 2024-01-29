@@ -1,0 +1,33 @@
+.coursecard{
+margin-top:1%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+height: 95%;
+display: flex;
+padding: 3%;
+flex-direction:column;
+border-radius: 5%;
+background-color: #fffffe;
+cursor: pointer;
+animation: mag 1s ease-out ;
+}
+
+
+
+@keyframes mag {
+    0%{
+        translate: 200px 100px ;
+        opacity: 0;
+    }
+   
+    100%{
+        translate: 0px 0px 0px;
+        opacity: 1;
+    }
+}
+.courseimg{
+    position: relative;
+}
+
+.cousename{
+
+}

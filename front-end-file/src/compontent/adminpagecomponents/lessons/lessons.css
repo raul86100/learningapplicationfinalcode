@@ -1,0 +1,29 @@
+.lessons-box{
+    padding:3%;
+    border: 1px solid black;
+    margin: 5% 15%;
+    box-shadow: 10px 10px 15px gray ;
+   
+}
+.lesson-row{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:1%;
+}
+.lesson-input{
+    height:3vh;
+    width:25vw;
+}
+.lesson-textarea{
+    height:8vh;
+    width:25vw;
+}
+.done-btn{
+    margin:1%;
+    display: flex;
+    justify-content: flex-end;
+    height:5vh;
+
+}

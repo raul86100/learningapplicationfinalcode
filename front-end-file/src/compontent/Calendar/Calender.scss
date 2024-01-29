@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Kalnia:wght@500&display=swap');
+.today{
+    background-color:rgba(88, 88, 255, 60%);
+    color:white;
+    border-radius: 50%;
+}
+.futur{
+    color: rgba(0,0,0, 50%);
+}
+table{
+    // border-spacing: 20px;
+    background-color: #e4e9f8;
+    border-radius: 26px;
+    font-size: medium;
+    font-weight: normal;
+    padding: 18px;
+   
+th, td {
+    padding: 6px 5px;
+    text-align: center;
+}
+}
+.callayout{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+}
+.month_design{
+    font-family: "Kalnia", serif;
+    color: steelblue;
+    font-size: 32px;
+}

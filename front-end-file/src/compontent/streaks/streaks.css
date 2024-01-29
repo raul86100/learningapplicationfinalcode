@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Noto+Sans:ital,wght@0,300;0,400;1,200;1,400&family=Poppins:ital,wght@0,400;0,600;0,800;1,700&family=Rubik:wght@400;500;700&family=Young+Serif&display=swap');
+
+.streakcontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+gap:2rem;
+font-family: 'Autour One', cursive;
+}
+.weldes{
+  padding: 3%;
+}
+.activecount, .completedcount{
+  text-align: center;
+}
+.activeclassheader{
+  
+font-style: oblique;
+}
+.count{
+  background-color: bisque;
+  border-radius: 15px 10px;
+}
+.welcome, .count
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding:5%;
+
+}
+.userimg
+{
+    width:40%;
+    border-radius: 75px;
+    
+}
+.streak
+{
+    /* margin-top: 2%;
+    margin-right: 2%;
+    margin-left:5%; */
+    /* border: 1px solid black; */
+    padding:5%;
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 7%; */
+  }
+.scount{
+  font-weight: 900;
+  font-size: x-large;
+}
+
+  .streakcount{
+    padding-left: 15%;
+    padding-top: 9%;
+    text-align: center;
+    
+  }
+
+.day-name {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+
+  .count h1{
+    text-align: center;
+  }
+

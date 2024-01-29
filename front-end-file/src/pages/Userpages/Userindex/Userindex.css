@@ -1,0 +1,40 @@
+.indexpage{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    /* padding-top:5vh; */
+    overflow: hidden;
+    height: 88vh;
+    /* background-image: linear-gradient(to bottom, #fff1eb 0%, #ace0f9 90%); */
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    
+}
+.colum1{
+    display: flex;
+    flex-direction: column;
+}
+.colum2 , .colum3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userpan{
+    background-color:rgba(247, 247, 247, 1);
+}
+/* .ballonzindex{
+    z-index:10;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    animation: upper 3s ease-out;
+} */
+
+@keyframes upper{
+    0%{
+        transform: translateY(100vh);
+    }
+    
+    100%{
+        transform: translateY(0vh);
+    }
+}

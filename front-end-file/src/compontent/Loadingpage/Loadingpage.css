@@ -1,0 +1,17 @@
+.ballonzindex4{
+    z-index:11;
+    position: absolute;
+    top: 0px; 
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-color:white;
+    padding-top: 20%;
+    padding-left: 45%;
+    /* animation: upper 3s ease; */
+}
+.ballonzindex4 p{
+    padding-left: 2%;
+    color: darkcyan;
+    font-weight: 900;
+}

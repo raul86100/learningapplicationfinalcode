@@ -1,0 +1,36 @@
+.m-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px ;
+    margin:1%;
+    width: 45%;
+    /* background-color: black; */
+    border-radius:10px;
+    box-shadow: 5px 5px 20px gray;
+   
+    
+}
+.messagetext{
+    font-size: 15px;
+}
+@media (max-width:1200px)
+{
+    .messagetext{
+        font-size: 12px;
+    }
+}
+@media (max-width:780px)
+{
+    .messagetext{
+        font-size: 10px;
+    }
+}
+@media (max-width:480px)
+{
+    .messagetext{
+        font-size: 6px;
+    }
+}

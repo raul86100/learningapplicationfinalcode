@@ -1,0 +1,24 @@
+.lessonpage-container{
+    width:100%;
+    background-color: rgb(250,240,230);
+    
+}
+.add-lesson{
+    position: absolute;
+    left:80%;
+    margin-top: 1%;
+}
+.lesson-container{
+    position: relative;
+    height: 80vh;
+    overflow: scroll;
+    margin-top:5%;
+    /* border: 1px solid; */
+    
+}
+.lesson-submit{
+    display: flex;
+    justify-content: flex-end;
+    height:5vh;
+    margin:2%;
+}

@@ -1,0 +1,60 @@
+import images from "../../imgaes/image"
+
+const Courses = [
+    {
+        name:'Abcdjhbbbbbfdfjkdfgefge',
+        authorname:'ghydf',
+        image:images.bookimg,
+        status:'Active',
+    },
+
+    {
+        name:'bacghhd',
+        authorname:'vfdget',
+        image:images.bookimg,
+        status:'Completed',
+    },
+    {
+        name:'bac',
+        authorname:'affvfdgf',
+        image:images.bookimg,
+        status:'Completed',
+    },
+    {
+        name:'Abc',
+        authorname:'afbegkf',
+        image:images.bookimg,
+        status:'Active',
+    },
+    {
+        name:'bacghhd',
+        authorname:'vfdget',
+        image:images.bookimg,
+        status:'Completed',
+    },
+    {
+        name:'Abcdjhbbbbbfdfjkdfgefge',
+        authorname:'ghydf',
+        image:images.bookimg,
+        status:'Active',
+    },
+    {
+        name:'Abcdjhbbbbbfdfjkdfgefge',
+        authorname:'ghydf',
+        image:images.bookimg,
+        status:'Active',
+    },
+    {
+        name:'Abcdjhbbbbbfdfjkdfgefge',
+        authorname:'ghydf',
+        image:images.bookimg,
+        status:'Active',
+    },
+    {
+        name:'Abcdjhbbbbbfdfjkdfgefge',
+        authorname:'ghydf',
+        image:images.bookimg,
+        status:'Active',
+    },
+];
+export default  Courses;

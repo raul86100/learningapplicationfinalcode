@@ -1,0 +1,28 @@
+.questiondev{
+    width:60%;
+    animation:op linear;
+   animation-timeline:view();
+}
+.browser{
+font-family:'Agbalumo';
+font-weight: bolder;
+font-size: xx-large;
+
+}
+.answerpara{
+    word-break: break-word;
+    
+}
+
+@keyframes op {
+    0%{
+opacity: 0;
+scale: 0;
+    }
+    50%{
+opacity: 1;
+scale:1;
+    }
+    
+    
+}

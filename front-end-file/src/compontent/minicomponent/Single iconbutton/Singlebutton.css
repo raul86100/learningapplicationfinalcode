@@ -1,0 +1,10 @@
+.btnicon{
+    padding: 1%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.actbtn{
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
