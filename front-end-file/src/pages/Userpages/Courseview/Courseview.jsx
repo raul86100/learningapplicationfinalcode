@@ -136,8 +136,13 @@ function Courseview() {
           .detectAllFaces(input)
           .withFaceLandmarks()
           .withFaceExpressions();
-        if (detectionsWithExpressions[0].expressions.sad < 5.0) {
-          console.log(detectionsWithExpressions[0].expressions.sad, "sad");
+
+           console.log(detectionsWithExpressions[0].expressions, "sad");
+          var temp=parseInt(detectionsWithExpressions[0].expressions.fearful.toString().slice(0,1));
+          // console.log(temp,"temp")
+        if ( temp> 4.00) {
+         
+          console.log(detectionsWithExpressions[0].expressions.fearful, "loopsad");
 
           console.log(true);
           setGame(true);
@@ -216,6 +221,7 @@ function Courseview() {
                 completeapicall();
               }
             }}
+            playing={!game}
             controls={true}
             width="100%"
             height="70vh"
